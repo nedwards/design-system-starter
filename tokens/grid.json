@@ -1,0 +1,10 @@
+{
+  "grid": {
+    "container": {
+      "xs": { "value": "1rem" },
+      "sm": { "value": "2rem" },
+      "md": { "value": "2rem" },
+      "lg": { "value": "2rem" }
+    }
+  }
+}

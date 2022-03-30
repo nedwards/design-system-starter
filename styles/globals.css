@@ -1,16 +1,102 @@
+/* Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Design Tokens */
+@import 'tokens.css';
+
+/* Fonts */
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;600;700;900&display=swap);
+
+/* Reset */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  height: 100%;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--typography-heading-font-family);
+  font-weight: var(--typography-heading-font-weight);
+  color: var(--typography-heading-color);
 }
 
-* {
-  box-sizing: border-box;
+h1 {
+  font-size: var(--typography-heading-h1-font-size);
+}
+
+h2 {
+  font-size: var(--typography-heading-h2-font-size);
+}
+
+h3 {
+  font-size: var(--typography-heading-h3-font-size);
+}
+
+h4 {
+  font-size: var(--typography-heading-h4-font-size);
+}
+
+h5 {
+  font-size: var(--typography-heading-h5-font-size);
+}
+
+h6 {
+  font-size: var(--typography-heading-h6-font-size);
+}
+
+body {
+  font-family: var(--typography-body-font-family);
+  font-size: var(--typography-body-font-size);
+  font-weight: var(--typography-body-font-weight);
+  color: var(--typography-body-color);
+  line-height: var(--typography-body-line-height);
+}
+
+p {
+  font-size: var(--typography-body-font-size);
+  line-height: var(--typography-body-line-height);
 }

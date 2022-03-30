@@ -1,0 +1,18 @@
+/**
+ * Do not edit directly
+ * Generated on Wed, 30 Mar 2022 02:29:57 GMT
+ */
+
+:root {
+  --color-primary: #000000;
+  --grid-container-xs: 1rem;
+  --grid-container-sm: 2rem;
+  --grid-container-md: 2rem;
+  --grid-container-lg: 2rem;
+  --typography-heading-font-family: 'Roboto', sans-serif;
+  --typography-heading-color: #000;
+  --typography-heading-font-weight: 600;
+  --typography-body-font-family: 'Roboto', sans-serif;
+  --typography-body-font-size: 1rem;
+  --typography-body-color: #000;
+}
