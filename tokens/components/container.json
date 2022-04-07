@@ -1,0 +1,18 @@
+{
+  "container": {
+    "max-width": {
+      "xs": { "value": "100%" },
+      "sm": { "value": "960px" },
+      "md": { "value": "960px" },
+      "lg": { "value": "960px" },
+      "xl": { "value": "1140px" }
+    },
+    "padding": {
+      "xs": { "value": "0 1rem" },
+      "sm": { "value": "0 1rem" },
+      "md": { "value": "0 1rem" },
+      "lg": { "value": "0 1rem" },
+      "xl": { "value": "0 1rem" }
+    }
+  }
+}

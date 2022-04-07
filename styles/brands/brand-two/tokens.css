@@ -1,0 +1,29 @@
+/**
+ * AUTO GENERATED DO NOT EDIT DIRECTLY
+ * Design Tokens - v0.1.0
+ */
+
+:root {
+  --color-primary: #000000;
+  --color-secondary: #000000;
+  --typography-font-family-primary: 'Roboto', sans-serif;
+  --typography-font-family-secondary: 'Roboto', sans-serif;
+  --typography-heading-font-family: 'Roboto', sans-serif;
+  --typography-heading-color: #000;
+  --typography-heading-font-weight: 600;
+  --typography-body-font-family: 'Roboto', sans-serif;
+  --typography-body-font-size: 1rem;
+  --typography-body-color: #000;
+  --container-max-width-xs: 100%;
+  --container-max-width-sm: 960px;
+  --container-max-width-md: 960px;
+  --container-max-width-lg: 960px;
+  --container-max-width-xl: 1140px;
+  --container-padding-xs: 0 1rem;
+  --container-padding-sm: 0 1rem;
+  --container-padding-md: 0 1rem;
+  --container-padding-lg: 0 1rem;
+  --container-padding-xl: 0 1rem;
+  --footer-background-color: #000000;
+  --header-background-color: #000000;
+}

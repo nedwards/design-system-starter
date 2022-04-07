@@ -1,56 +1,5 @@
-/* Tailwind CSS */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-/* Design Tokens */
-@import 'tokens.css';
-
 /* Fonts */
 @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;600;700;900&display=swap);
-
-/* Reset */
-*,
-*::before,
-*::after {
-  -webkit-box-sizing: inherit;
-  box-sizing: inherit;
-}
-* {
-  margin: 0;
-  box-sizing: border-box;
-}
-html,
-body {
-  height: 100%;
-}
-img,
-picture,
-video,
-canvas,
-svg {
-  display: block;
-  max-width: 100%;
-}
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  overflow-wrap: break-word;
-}
-#root,
-#__next {
-  isolation: isolate;
-}
 
 /* Typography */
 h1,

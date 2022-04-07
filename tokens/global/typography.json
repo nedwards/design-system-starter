@@ -1,7 +1,11 @@
 {
   "typography": {
+    "font-family": {
+      "primary": { "value": "'Roboto', sans-serif" },
+      "secondary": { "value": "{typography.font-family.primary}" }
+    },
     "heading": {
-      "font-family": { "value": "'Roboto', sans-serif" },
+      "font-family": { "value": "{typography.font-family.primary}" },
       "color": { "value": "#000" },
       "font-weight": { "value": "600" },
       "h1": {
@@ -24,7 +28,7 @@
       }
     },
     "body": {
-      "font-family": { "value": "'Roboto', sans-serif" },
+      "font-family": { "value": "{typography.font-family.secondary}" },
       "font-size": { "value": "1rem" },
       "color": { "value": "#000" }
     }
